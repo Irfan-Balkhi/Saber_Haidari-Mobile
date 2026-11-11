@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="images/favicon.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact – {shop}</title>
+  </head>
+  <body data-page="contact">
+    <header id="site-header"></header>
+    <main>
+      <div class="page-top wrap">
+        <span class="eyebrow">Contact</span>
+        <h1>Let's <span class="grad-text">talk</span></h1>
+      </div>
+      <section style="padding-top: 30px">
+        <div class="wrap contact-grid">
+          <div class="panel reveal">
+            <h3 style="margin-bottom: 20px">Send us a message</h3>
+            <form class="form" id="form">
+              <input name="name" placeholder="Your name" required /><input
+                name="phone"
+                placeholder="Phone number"
+              /><textarea
+                name="message"
+                placeholder="How can we help?"
+                required
+              ></textarea
+              ><button class="btn" type="submit">Send message</button>
+            </form>
+          </div>
+          <div class="panel reveal" style="--d: 120ms">
+            <h3 style="margin-bottom: 20px">Shop details</h3>
+            <div id="info"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="site-footer"></footer>
+    <script src="js/config.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
